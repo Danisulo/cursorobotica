@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PhysicalModelingXMLFile>
+
+  <formatVersion>"1.0.4"</formatVersion>
+
+  <internalVersion>1</internalVersion>
+
+  <createdUsing>"SimMechanics Link Version 4.6"</createdUsing>
+
+  <createdFrom>"SolidWorks 21.5.0"</createdFrom>
+
+  <createdOn>"06/26/15||14:07:50"</createdOn>
+
+  <createdBy>"No formal user defined!"</createdBy>
+
+  <name>"Ensamble_robot"</name>
+
+  <SimMechanics>
+    <name>"Ensamble_robot"</name>
+    <nodeID>"Ensamble_robot"</nodeID>
+    <bodies>
+      <Body>
+        <name>"Torre-1"</name>
+        <nodeID>"Torre-1"</nodeID>
+        <status>""</status>
+        <mass>12.906</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.653453,0.0144429,-5.6767e-009,0.0144429,0.0391342,-1.12795e-008,-5.6767e-009,-1.12795e-008,0.64837</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.0126529</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.503774</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Torre-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.00895228,0.124909,6.2308e-009</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Torre-1::CS1(AUTOGEN)"</nodeID>
+            <position>0,-0.18,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="6">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Soporte-1:-:Torre-1::Torre-1(AUTOGEN)"</nodeID>
+            <position>0,-0.23,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="7">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_1-1:-:Torre-1::Torre-1(AUTOGEN)"</nodeID>
+            <position>0,0.5,0.045</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Torre-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Soporte-1"</name>
+        <nodeID>"Soporte-1"</nodeID>
+        <status>""</status>
+        <mass>6.83887</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.0271292,0.00214532,-1.0763e-006,0.00214532,0.102791,-1.48243e-006,-1.0763e-006,-1.48243e-006,0.0878129</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00670477</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.291019</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Soporte-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.119346,-0.242891,4.53911e-006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Soporte-1::CS1(AUTOGEN)"</nodeID>
+            <position>0,-0.29,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="2">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ensamble_robot/RootPart:-:Soporte-1::Soporte-1(AUTOGEN)"</nodeID>
+            <position>-0.119346,-0.242891,4.53911e-006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="3">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>":-:Ensamble_robot/RootPart::Soporte-1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="5">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"Soporte-1:-:Torre-1::Soporte-1(AUTOGEN)"</nodeID>
+            <position>0,-0.23,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Soporte-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"RootPart"</name>
+        <nodeID>"Ensamble_robot/RootPart"</nodeID>
+        <status>""</status>
+        <mass>0</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0,0,0,0,0,0,0,0,0</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ensamble_robot/RootPart::CG(AUTOGEN)"</nodeID>
+            <position>0.0659419,0.00229338,1.11665e-006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ensamble_robot/RootPart::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="1">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ensamble_robot/RootPart:-:Soporte-1::Ensamble_robot/RootPart(AUTOGEN)"</nodeID>
+            <position>-0.119346,-0.242891,4.53911e-006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="4">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>":-:Ensamble_robot/RootPart::Ensamble_robot/RootPart(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="18">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ensamble_robot/RootPart:-:RootGround::Ensamble_robot/RootPart(AUTOGEN)"</nodeID>
+            <position>0.0659419,0.00229338,1.11665e-006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>""</geometryFileName>
+      </Body>
+      <Body>
+        <name>"Brazo_1-1"</name>
+        <nodeID>"Brazo_1-1"</nodeID>
+        <status>""</status>
+        <mass>5.04274</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.0173518,0.0122763,1.33704e-009,0.0122763,0.106444,-1.19326e-009,1.33704e-009,-1.19326e-009,0.102671</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00494386</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.28952</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_1-1::CG(AUTOGEN)"</nodeID>
+            <position>0.204832,0.0464629,2.69197e-009</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_1-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.45,0.0499751,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="8">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_1-1:-:Torre-1::Brazo_1-1(AUTOGEN)"</nodeID>
+            <position>0,0.149975,0.045</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="9">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_1-1:-:Brazo_2-1::Brazo_1-1(AUTOGEN)"</nodeID>
+            <position>0.45,0.0299751,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Brazo_1-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Pinza_1-1"</name>
+        <nodeID>"Pinza_1-1"</nodeID>
+        <status>""</status>
+        <mass>1.1552</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.00139548,9.82419e-005,0,9.82419e-005,0.00107204,0,0,0,0.00130274</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00042785</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.046675</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza_1-1::CG(AUTOGEN)"</nodeID>
+            <position>0.653502,-0.0707388,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza_1-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.65,-0.110025,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="12">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_2-1:-:Pinza_1-1::Pinza_1-1(AUTOGEN)"</nodeID>
+            <position>0.65,-0.0200249,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="13">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-1:-:Pinza_1-1::Pinza_1-1(AUTOGEN)"</nodeID>
+            <position>0.672,-0.105025,-0.055</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="15">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-2:-:Pinza_1-1::Pinza_1-1(AUTOGEN)"</nodeID>
+            <position>0.672,-0.105025,0.055</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Pinza_1-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.894118,0.913725,0.929412</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Pinza-2SLDPRT-1"</name>
+        <nodeID>"Pinza-2SLDPRT-1"</nodeID>
+        <status>""</status>
+        <mass>0.01755</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>5.56763e-007,0,0,0,7.2684e-006,0,0,0,6.78476e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>6.5e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00348249</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-1::CG(AUTOGEN)"</nodeID>
+            <position>0.705013,-0.0950249,-0.0525</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,0,-1,0,1,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.697,-0.0950249,-0.05</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,0,-1,0,1,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="14">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-1:-:Pinza_1-1::Pinza-2SLDPRT-1(AUTOGEN)"</nodeID>
+            <position>0.672,-0.105025,-0.055</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Pinza-2SLDPRT-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.894118,0.913725,0.929412</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Pinza-2SLDPRT-2"</name>
+        <nodeID>"Pinza-2SLDPRT-2"</nodeID>
+        <status>""</status>
+        <mass>0.01755</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>5.56763e-007,0,0,0,7.2684e-006,0,0,0,6.78476e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>6.5e-006</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00348249</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-2::CG(AUTOGEN)"</nodeID>
+            <position>0.705013,-0.0950249,0.0525</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,0,1,0,-1,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.697,-0.0950249,0.05</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,0,1,0,-1,0</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="16">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Pinza-2SLDPRT-2:-:Pinza_1-1::Pinza-2SLDPRT-2(AUTOGEN)"</nodeID>
+            <position>0.672,-0.105025,0.055</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Pinza-2SLDPRT-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.894118,0.913725,0.929412</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Brazo_2-1"</name>
+        <nodeID>"Brazo_2-1"</nodeID>
+        <status>""</status>
+        <mass>1.88667</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.00269492,0.000426403,-1.18231e-009,0.000426403,0.0126019,2.20098e-009,-1.18231e-009,2.20098e-009,0.0117797</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.00184968</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.115643</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_2-1::CG(AUTOGEN)"</nodeID>
+            <position>0.507024,-0.0192513,-1.13579e-008</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_2-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.45,-0.0500249,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="10">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_1-1:-:Brazo_2-1::Brazo_2-1(AUTOGEN)"</nodeID>
+            <position>0.45,0.0299751,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="11">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Brazo_2-1:-:Pinza_1-1::Brazo_2-1(AUTOGEN)"</nodeID>
+            <position>0.65,-0.0200249,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"Ensamble_robot - Brazo_2-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+    </bodies>
+    <joints>
+      <SimpleJoint>
+        <name>"RootPart--Soporte-1"</name>
+        <nodeID>"Ensamble_robot/RootPart:-:Soporte-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="1"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="2"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Soporte-1--RootPart"</name>
+        <nodeID>":-:Ensamble_robot/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="3"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="4"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"spherical"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Soporte-1--Torre-1"</name>
+        <nodeID>"Soporte-1:-:Torre-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="5"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="6"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Torre-1--Brazo_1-1"</name>
+        <nodeID>"Brazo_1-1:-:Torre-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="7"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="8"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"prismatic"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Brazo_1-1--Brazo_2-1"</name>
+        <nodeID>"Brazo_1-1:-:Brazo_2-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="9"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="10"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Brazo_2-1--Pinza_1-1"</name>
+        <nodeID>"Brazo_2-1:-:Pinza_1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="11"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="12"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Pinza_1-1--Pinza-2SLDPRT-1"</name>
+        <nodeID>"Pinza-2SLDPRT-1:-:Pinza_1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="13"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="14"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Pinza_1-1--Pinza-2SLDPRT-2"</name>
+        <nodeID>"Pinza-2SLDPRT-2:-:Pinza_1-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="15"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="16"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootGround--RootPart"</name>
+        <nodeID>"Ensamble_robot/RootPart:-:RootGround"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="17"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="18"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+    </joints>
+    <grounds>
+      <Ground>
+        <name>"RootGround"</name>
+        <nodeID>"RootGround"</nodeID>
+        <status>""</status>
+        <frame>
+          <Frame ref="17">
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Ensamble_robot/RootPart:-:RootGround::RootGround(AUTOGEN)"</nodeID>
+            <position>0.0659419,0.00229338,1.11665e-006</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frame>
+      </Ground>
+    </grounds>
+    <subsystems></subsystems>
+    <connectionPorts></connectionPorts>
+    <id>0</id>
+  </SimMechanics>
+
+</PhysicalModelingXMLFile>
